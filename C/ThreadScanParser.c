@@ -4,7 +4,7 @@
 	This function will check and return the type of data that was scanned in.
 
 	Parameters:
-		scanData			- 	pointer to char, the scanned information
+		scanData	- 	pointer to char, the scanned information
 
 	Return Value:
 		BARCODE_TYPE	-	see <Barcode Types>
@@ -22,8 +22,7 @@ int ThreadScanParser(char *scanData)
 			if (debugMode == TRUE)
 			{
 				// display status	
-				sprintf(statusStr, "scanner: FOUND known barcode (%s)", scanData);  	
-				StatusTable_Update(statusTable, statusStr, MESSAGE_PASS);	
+				sprintf(statusStr, "scanner: FOUND known barcode (%s)", scanData);  		
 			}
 			return index;
 		}
