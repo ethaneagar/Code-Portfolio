@@ -7,10 +7,10 @@
 		
 	Parameters:
 		connectionSring	- string holding SQL connection statement
-		multiThread 		- integer to be provided for thread options
+		multiThread 	- integer to be provided for thread options
 
-								- Single Threaded Program: 	DB_INIT_SINGLETHREADED
-								- Multithreaded Program:		DB_INIT_MULTITHREADED
+				- Single Threaded Program: 	DB_INIT_SINGLETHREADED
+				- Multithreaded Program:	DB_INIT_MULTITHREADED
 
 	Return Value:
 		status as an integer (DB_SUCCESS, DB_FAILURE)
